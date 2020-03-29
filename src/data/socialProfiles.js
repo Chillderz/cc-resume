@@ -1,4 +1,4 @@
-// find icon image names at https://fontawesome.com/icons?d=gallery
+// find icon image names at https://fontawesome.com/icons?d=gallery!
 
 const SOCIAL_PROFILES = [
     {
