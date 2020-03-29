@@ -1,5 +1,21 @@
 import React from 'react';
+import SOCIAL_PROFILES from './data/socialProfiles';
 import './Header.css'
+
+const SocialProfile = (props) => {
+    const { title, link, image } = props.socialProfile;
+
+    return (
+        <li class="socialWrapper">
+            <a class="color--skyBlue social"
+                title={title}
+                target="_blank"
+                href={link}>
+            <i class={image}></i>
+            </a>
+        </li>
+    )
+}
 
 const Header = () => {
     return(
@@ -10,31 +26,14 @@ const Header = () => {
 
             <ul class="section--social">
 
-                <li class="socialWrapper">
-                    <a class="color--skyBlue social"
-                        title="LinkedIn Profile"
-                        target="_blank"
-                        href="https://www.linkedin.com/in/christopher-childers-28950537/">
-                    <i class="fa fa-linkedin"></i>
-                    </a>
-                </li>
-
-                <li class="socialWrapper color--skyBlue">
-                    <a class="social color--skyBlue"
-                        title="GitHub Profile"
-                        target="_blank"
-                        href="https://github.com/Chillderz">
-                    <i class="fa fa-github"></i>
-                    </a>
-                </li>
-
-                <li class="socialWrapper">
-                    <a class="social color--skyBlue"
-                        title="Resume"
-                        href="#">
-                    <i class="fa fa-file-text"></i>
-                    </a>
-                </li>
+                {
+                
+                    SOCIAL_PROFILES.map(SOCIAL_PROFILE => {
+                        return (
+                            <SocialProfile key={SOCIAL_PROFILE.id} socialProfile={SOCIAL_PROFILE} />
+                        );
+                    })
+                }
             </ul>
         </main>
     )
