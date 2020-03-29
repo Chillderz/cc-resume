@@ -1,6 +1,8 @@
 import React from 'react';
-import SOCIAL_PROFILES from './data/socialProfiles';
-import './Header.css'
+import SOCIAL_PROFILES from '../data/socialProfiles';
+
+import '../css/SharedCSS.css'
+import '../css/Header.css'
 
 const SocialProfile = (props) => {
     const { title, link, image } = props.socialProfile;
@@ -41,3 +43,4 @@ const Header = () => {
 }
 
 export default Header;
+export { SocialProfile };

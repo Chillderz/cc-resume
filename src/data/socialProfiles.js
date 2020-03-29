@@ -1,7 +1,4 @@
-// import emailIcon from '../assets/email_icon.png';
-// import githubIcon from '../assets/github_icon.png';
-// import linkedinIcon from '../assets/linkedin_icon.png';
-// import twitterIcon from '../assets/twitter_icon.png';
+// find icon image names at https://fontawesome.com/icons?d=gallery
 
 const SOCIAL_PROFILES = [
     {
@@ -21,6 +18,12 @@ const SOCIAL_PROFILES = [
         title: 'Resume',
         link: 'https://portfolio.cchilders.com',
         image: 'fa fa-file-text'
+    },
+    {
+        id: 4,
+        title: 'Email Me',
+        link: 'mailto:cchilders1289@gmail.com',
+        image: 'fa fa-envelope'
     }
 ];
 
