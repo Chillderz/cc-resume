@@ -114,8 +114,8 @@ Helpers
   .section__exampleWrapper,
   .section__example {
     display: inline-block;
-    height: 35rem;
-    width: 35rem;
+    height: 30rem;
+    width: 30rem;
   }
   
   .section__exampleWrapper {
@@ -136,15 +136,14 @@ Helpers
   }
   
   .section__exampleTitle{
-    font-size: 3.4rem;
+    font-size: 3rem;
     text-align: center;
     text-transform: uppercase;
     width: 90%;
   }
   
   .section__exampleImage {
-    opacity: 0.25;
-    width: 250%;
-    margin-left: -50%;
-    margin-top: -50%;
+    opacity: 0.55;
+    width: 60%;
+    margin-top: 15%;
   }

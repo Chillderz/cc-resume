@@ -8,12 +8,12 @@ const SocialProfile = (props) => {
     const { title, link, image } = props.socialProfile;
 
     return (
-        <li class="socialWrapper">
-            <a class="color--skyBlue social"
+        <li className="socialWrapper">
+            <a className="color--darkgrey social"
                 title={title}
                 target="_blank"
                 href={link}>
-            <i class={image}></i>
+            <i className={image}></i>
             </a>
         </li>
     )
@@ -21,12 +21,12 @@ const SocialProfile = (props) => {
 
 const Header = () => {
     return(
-        <main class="overflow--auto">
-            <h1 class="color--skyBlue section__heading--largest">
+        <main className="overflow--auto">
+            <h1 className="color--darkgrey section__heading--largest">
                 CHRIS CHILDERS
             </h1>
 
-            <ul class="section--social">
+            <ul className="section--social">
 
                 {
                 

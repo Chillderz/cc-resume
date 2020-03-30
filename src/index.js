@@ -4,13 +4,14 @@ import * as serviceWorker from './serviceWorker';
 import './index.css';
 
 import Header from './components/Header';
-import Skills from './components/Skills';
+import AwsCerts from './components/AwsCerts';
+import AWS_CERTIFICATIONS from './data/awsCerts';
 
 
 ReactDOM.render(
   <React.StrictMode>
     <Header />
-    <Skills />
+    <AwsCerts certs={AWS_CERTIFICATIONS}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
