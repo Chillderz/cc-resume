@@ -2,7 +2,7 @@ const WORK_EXPERIENCE = [
     {
         'id': 1,
         'company': 'Epic',
-        'titles': {
+        'title': {
             'name': 'Client Systems - Technical Services',
             'years': '2012-2017'
         }
@@ -10,25 +10,39 @@ const WORK_EXPERIENCE = [
     {
         'id': 2,
         'company': 'WorkWave',
-        'titles': [
-            {
-                'name': 'Sr. Systems Engineer',
-                'years': '2017-2018'
-            },
-            {
-                'name': 'DevOps Engineer',
-                'years': '2018-2019'
-            },
-            {
-                'name': 'Sr. DevOps Engineer',
-                'years': '2019'
-            }
-        ]
+        'title': {
+            'name': 'Sr. Systems Engineer',
+            'years': '2017-2018'
+        }
     },
     {
         'id': 3,
+        'company': 'WorkWave',
+        'title': {
+            'name': 'DevOps Engineer',
+            'years': '2018-2019'
+        }
+    },
+    {
+        'id': 4,
+        'company': 'WorkWave',
+        'title': {
+            'name': 'DevOps Engineer',
+            'years': '2018-2019'
+        }
+    },
+    {
+        'id': 5,
+        'company': 'WorkWave',
+        'title': {
+            'name': 'Sr. DevOps Engineer',
+            'years': '2019'
+        }
+    },
+    {
+        'id': 6,
         'company': 'AWS',
-        'titles': {
+        'title': {
             'name': 'Cloud Infrastructure Architect',
             'years': '2019-present'
         }

@@ -27,6 +27,10 @@
 .color--skyBlue {
     color: rgb(52, 152, 219);
 }
+
+.color--lightBlue {
+  color: rgb(82, 176, 238);
+}
   
 .color--cloud {
     color: rgb(236, 240, 241);
@@ -55,7 +59,7 @@ html {
 }
   
 body {
-    font-family: 'Cardo', serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
   
@@ -110,6 +114,20 @@ Helpers
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
+  .section__text--top-centered {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .section__text--bottom-centered {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
   
   .section__exampleWrapper,
   .section__example {
@@ -139,6 +157,14 @@ Helpers
     font-size: 3rem;
     text-align: center;
     text-transform: uppercase;
+    width: 90%;
+  }
+
+  .section__exampleDescription{
+    font-size: 2.3rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
     width: 90%;
   }
   

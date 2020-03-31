@@ -43,7 +43,7 @@ class WorkExperience extends React.Component {
                         {
                             this.props.jobs.map( ( job, idx ) => {
                                 return (
-                                    job.company
+                                    <JobBubble job={job} key={idx} openModal={this.openModal} />
                                 )
                             })
                         }
@@ -54,4 +54,29 @@ class WorkExperience extends React.Component {
     }
 }
 
+class JobBubble extends React.Component {
+    render() {
+        let job = this.props.job;
+
+        return (
+            <div className="section__exampleWrapper" onClick={ (evt) => this.props.openModal(evt, job) }>
+                <div className="section__example">  
+                    <dl className="color--cloud">
+                        <dt className="section__exampleTitle section__text--centered color--lightBlue">
+                            { job.title.name }
+                        </dt>
+                        <p className="section__exampleDescription section__text--top-centered">
+                            { job.company }
+                        </p>
+                        <p className="section__exampleDescription section__text--bottom-centered">
+                            { job.title.years }
+                        </p>
+                    </dl>
+                </div>
+            </div>
+        )
+    }
+}
+
 export default WorkExperience;
+export { JobBubble };
