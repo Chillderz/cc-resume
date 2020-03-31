@@ -8,6 +8,7 @@ import SOCIAL_PROFILES from '../data/socialProfiles'
 
 Enzyme.configure({ adapter: new Adapter() });
 
+
 describe("Header - social profile array", () => {
     let component = shallow(<Header />);
 

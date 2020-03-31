@@ -77,3 +77,4 @@ class CertBubble extends React.Component {
 }
 
 export default AwsCerts;
+export { CertBubble };
