@@ -27,20 +27,12 @@ const WORK_EXPERIENCE = [
         'id': 4,
         'company': 'WorkWave',
         'title': {
-            'name': 'DevOps Engineer',
-            'years': '2018-2019'
-        }
-    },
-    {
-        'id': 5,
-        'company': 'WorkWave',
-        'title': {
             'name': 'Sr. Systems Engineer',
             'years': '2017-2018'
         }
     },
     {
-        'id': 6,
+        'id': 5,
         'company': 'Epic',
         'title': {
             'name': 'Client Systems - Technical Services',
