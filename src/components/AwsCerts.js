@@ -37,7 +37,7 @@ class AwsCerts extends React.Component {
                     </h2>
                 </section>
     
-                <div id='skills'>
+                <div id='aws-certs'>
                     <section className="section section--alignCentered section--description">
                         {
                             this.props.certs.map( ( cert, idx ) => {
