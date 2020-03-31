@@ -19,4 +19,25 @@ describe("AwsCerts component", () => {
     it("Should contain the correct number of AWS_CERTIFICATIONS", () => {
         expect(component.find("CertBubble").length).toEqual(AWS_CERTIFICATIONS.length);
     });
-})
+});
+
+describe("CertBubble component", () => {
+    let mockOpenModalFn = jest.fn();
+
+    let component = shallow(<CertBubble cert={ AWS_CERTIFICATIONS[0] } key={ AWS_CERTIFICATIONS[0].id } openModal={mockOpenModalFn} />);
+
+    let images = component.find('img');
+
+    it("Should contain a single element", () => {
+        expect(images.length).toEqual(1);
+    });
+
+    it("Should have the img src set correctly", () => {
+        expect(images.prop('src')).toEqual(AWS_CERTIFICATIONS[0].image);
+    });
+
+    it("Should call the openModal handler when clicked", () => {
+        component.find('.section__exampleWrapper').simulate('click');
+        expect(mockOpenModalFn).toHaveBeenCalled();
+    })
+});
