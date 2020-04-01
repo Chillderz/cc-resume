@@ -63,7 +63,7 @@ class CertBubble extends React.Component {
                     <img alt='AWS Certification Logo'
                         className="section__exampleImage"
                         src={ cert.image }/>     
-                    <dl className="color--cloud">
+                    <dl className="color--lightBlue">
                         <dt className="section__exampleTitle section__text--centered">
                             { cert.title }
                         </dt>
