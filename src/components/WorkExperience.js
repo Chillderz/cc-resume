@@ -2,6 +2,7 @@ import React from 'react';
 
 import '../css/SharedCSS.css';
 import { findAllByTestId } from '@testing-library/react';
+import WorkExperienceModal from './WorkExperienceModal';
 
 class WorkExperience extends React.Component {
     constructor(props) {
@@ -49,6 +50,8 @@ class WorkExperience extends React.Component {
                         }
                     </section>
                 </div>
+
+                <WorkExperienceModal job={this.state.selectedJobTitle} open={this.state.modalOpen} closeModal={this.closeModal}/>
             </span>
         )
     }

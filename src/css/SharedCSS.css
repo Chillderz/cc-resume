@@ -23,6 +23,10 @@
 .background--skyBlue {
     background-color: rgb(52, 152, 219);
 }
+
+.background--darkBlue {
+  background-color: rgb(26, 137, 211);
+}
   
 .color--skyBlue {
     color: rgb(52, 152, 219);
@@ -31,7 +35,7 @@
 .color--lightBlue {
   color: rgb(132, 206, 255);
 }
-  
+
 .color--cloud {
     color: rgb(236, 240, 241);
 }
@@ -118,6 +122,13 @@ Helpers
   .section__text--top-centered {
     position: absolute;
     top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .section__title--top-centered {
+    position: absolute;
+    top: 3%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
