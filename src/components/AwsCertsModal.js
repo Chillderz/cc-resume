@@ -1,8 +1,9 @@
 import React from 'react';
 
 import '../css/Modal.css'
+import AwsCerts from './AwsCerts';
 
-class WorkExperienceModal extends React.Component {
+class AwsCertsModal extends React.Component {
     constructor(props) {
         super(props);
 
@@ -24,7 +25,7 @@ class WorkExperienceModal extends React.Component {
     }
 
     render() {
-        let job = this.props.job;
+        let cert = this.props.cert;
         let modalClass = this.props.open ? 'modal--open' : 'modal--closed';
 
         return (
@@ -34,22 +35,15 @@ class WorkExperienceModal extends React.Component {
                 </span>
                 <div className="color--cloud modal__text">
                     <h2 className="modal__title">
-                        { job.company }
-                    </h2>
-                    <h2 className="modal__title">
-                        { job.title.name }
+                        { cert.title }
                     </h2>
                     <p className="color--darkgrey modal__responsibilities">
                         <ul>
-                            { job.title.keyResponsibilities.map( ( responsibility, idx ) => {
-                                return (
-                                    <li>{responsibility}</li>
-                                )
-                            })}
+                            <a href={cert.link} target="_blank">VALIDATION NUMBER </a> : {cert.validation} 
                         </ul>
                     </p>
                     <p className="modal__description">
-                        { job.title.summary }
+                        { cert.title }
                     </p>
                      
                 </div>
@@ -58,4 +52,4 @@ class WorkExperienceModal extends React.Component {
     }
 }
 
-export default WorkExperienceModal;
+export default AwsCertsModal;

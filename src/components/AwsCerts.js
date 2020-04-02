@@ -1,6 +1,7 @@
 import React from 'react';
 
-import '../css/SharedCSS.css'
+import '../css/SharedCSS.css';
+import AwsCertsModal from './AwsCertsModal';
 
 class AwsCerts extends React.Component {
     constructor(props) {
@@ -48,6 +49,8 @@ class AwsCerts extends React.Component {
                         }
                     </section>
                 </div>
+
+                <AwsCertsModal cert={this.state.selectedCert} open={this.state.modalOpen} closeModal={this.closeModal}/>
             </span>
         )
     }

@@ -24,8 +24,9 @@
     background-color: rgb(52, 152, 219);
 }
 
-.background--darkBlue {
+.background--modal-darkBlue {
   background-color: rgb(26, 137, 211);
+  opacity: .97;
 }
   
 .color--skyBlue {
