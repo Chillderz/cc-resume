@@ -1,6 +1,7 @@
 import React from 'react';
 
 import '../css/Modal.css'
+import { findAllByTestId } from '@testing-library/react';
 import AwsCerts from './AwsCerts';
 
 class AwsCertsModal extends React.Component {

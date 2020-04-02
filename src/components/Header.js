@@ -1,6 +1,7 @@
 import React from 'react';
 import SOCIAL_PROFILES from '../data/socialProfiles';
 
+import { findAllByTestId } from '@testing-library/react';
 import '../css/SharedCSS.css'
 import '../css/Header.css'
 
