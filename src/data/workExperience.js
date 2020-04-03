@@ -12,7 +12,7 @@ const WORK_EXPERIENCE = [
                 'Automate everything through multiple languages',
                 'Help customers with cloud security, networking, compute, and storage'
             ],
-            'summary': "The path to Cloud Infrastructure Architect unfolded organically for me.  "
+            'summary': "As a Cloud Infrastructure Architect I deliver well-architected enterprise scale architecture with the agility provided from DevOps principles"
         }
     },
     {
@@ -22,13 +22,12 @@ const WORK_EXPERIENCE = [
             'name': 'Sr. DevOps Engineer',
             'years': '2019',
             'keyResponsibilities': [
-                'Insert Sr. DevOps responsibilities',
-                'Insert Sr. DevOps responsibilities',
-                'Insert Sr. DevOps responsibilities',
-                'Insert Sr. DevOps responsibilities',
-                'Help customers with cloud security, networking, compute, and storage'
+                'Architect and Deliver serverless CI/CD Pipelines',
+                'Extend and Support TeamCity / Octopus integration and deployment',
+                'Train and support the Engineering team on the observability platform',
+                'Create efficiencies for the Operations team through scalable automation'
             ],
-            'summary': "The path to Cloud Infrastructure Architect unfolded organically for me.  "
+            'summary': "As a Senior DevOps Engineer I influenced adoption of DevOps processes and cloud native workloads for all application teams"
         }
     },
     {
@@ -38,13 +37,12 @@ const WORK_EXPERIENCE = [
             'name': 'DevOps Engineer',
             'years': '2018-2019',
             'keyResponsibilities': [
-                'Insert Sr. DevOps responsibilities',
-                'Insert Sr. DevOps responsibilities',
-                'Insert Sr. DevOps responsibilities',
-                'Insert Sr. DevOps responsibilities',
-                'Help customers with cloud security, networking, compute, and storage'
+                'Infrastructure automation with CloudFormation',
+                'Configuration Management with Chef',
+                'Pipeline support for TeamCity / Octopus',
+                'Automate operational tasks'
             ],
-            'summary': "The path to Cloud Infrastructure Architect unfolded organically for me.  "
+            'summary': "As a DevOps Engineer I combined my Infrastructure knowledge and interest in automation to optimize operational and development workflows"
         }
     },
     {
@@ -54,13 +52,12 @@ const WORK_EXPERIENCE = [
             'name': 'Sr. Systems Engineer',
             'years': '2017-2018',
             'keyResponsibilities': [
-                'Insert Sr. DevOps responsibilities',
-                'Insert Sr. DevOps responsibilities',
-                'Insert Sr. DevOps responsibilities',
-                'Insert Sr. DevOps responsibilities',
-                'Help customers with cloud security, networking, compute, and storage'
+                'Architect and Support Observability Platform',
+                'Automate server resolution tasks',
+                'Automate and support web site creation workflows',
+                'Troubleshoot and increase performance for all applications'
             ],
-            'summary': "The path to Cloud Infrastructure Architect unfolded organically for me.  "
+            'summary': "As a Senior Systems Engineer I took my enterprise knowledge of architecture and applied it to the AWS cloud"
         }
     },
     {
@@ -70,13 +67,10 @@ const WORK_EXPERIENCE = [
             'name': 'Client Systems - Technical Services',
             'years': '2012-2017',
             'keyResponsibilities': [
-                'Insert Sr. DevOps responsibilities',
-                'Insert Sr. DevOps responsibilities',
-                'Insert Sr. DevOps responsibilities',
-                'Insert Sr. DevOps responsibilities',
-                'Help customers with cloud security, networking, compute, and storage'
+                'Placeholder',
+                'Placeholder'
             ],
-            'summary': "The path to Cloud Infrastructure Architect unfolded organically for me.  "
+            'summary': "Placeholder"
         }
     },
 ]
