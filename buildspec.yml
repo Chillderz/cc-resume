@@ -1,10 +1,12 @@
 version: 0.2
 
 phases:
-  pre_build:
+  install:
     commands:
       - npm install
-      - npm test
+  pre_build:
+    commands:
+      - npm test -- --watchAll=false
   build: 
     commands: 
       - npm run build
