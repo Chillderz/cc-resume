@@ -1,8 +1,6 @@
 import React from 'react';
 
 import '../css/Modal.css'
-import { findAllByTestId } from '@testing-library/react';
-import AwsCerts from './AwsCerts';
 
 class AwsCertsModal extends React.Component {
     constructor(props) {
@@ -40,7 +38,7 @@ class AwsCertsModal extends React.Component {
                     </h2>
                     <p className="color--darkgrey modal__responsibilities">
                         <ul>
-                            <a href={cert.link} target="_blank">VALIDATION NUMBER </a> : {cert.validation} 
+                            <a href={cert.link} target="_blank" rel="noopener noreferrer">VALIDATION NUMBER </a> : {cert.validation} 
                         </ul>
                     </p>
                     <p className="modal__description">

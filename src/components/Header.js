@@ -1,7 +1,6 @@
 import React from 'react';
 import SOCIAL_PROFILES from '../data/socialProfiles';
 
-import { findAllByTestId } from '@testing-library/react';
 import '../css/SharedCSS.css'
 import '../css/Header.css'
 
@@ -13,6 +12,7 @@ const SocialProfile = (props) => {
             <a className="color--darkgrey social"
                 title={title}
                 target="_blank"
+                rel="noopener noreferrer"
                 href={link}>
             <i className={image}></i>
             </a>

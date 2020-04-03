@@ -1,6 +1,5 @@
 import React from 'react';
 
-import { findAllByTestId } from '@testing-library/react';
 import '../css/Modal.css'
 
 class WorkExperienceModal extends React.Component {

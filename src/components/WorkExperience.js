@@ -1,7 +1,6 @@
 import React from 'react';
 
 import '../css/SharedCSS.css';
-import { findAllByTestId } from '@testing-library/react';
 import WorkExperienceModal from './WorkExperienceModal';
 
 class WorkExperience extends React.Component {
