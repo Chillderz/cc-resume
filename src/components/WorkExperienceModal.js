@@ -39,7 +39,7 @@ class WorkExperienceModal extends React.Component {
                     <h2 className="modal__title">
                         { job.title.name }
                     </h2>
-                    <p className="color--darkgrey modal__responsibilities">
+                    <div className="color--darkgrey modal__responsibilities">
                         <ul>
                             { job.title.keyResponsibilities.map( ( responsibility, idx ) => {
                                 return (
@@ -47,7 +47,7 @@ class WorkExperienceModal extends React.Component {
                                 )
                             })}
                         </ul>
-                    </p>
+                    </div>
                     <p className="modal__description">
                         { job.title.summary }
                     </p>

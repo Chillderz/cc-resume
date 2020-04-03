@@ -36,11 +36,11 @@ class AwsCertsModal extends React.Component {
                     <h2 className="modal__title">
                         { cert.title }
                     </h2>
-                    <p className="color--darkgrey modal__responsibilities">
+                    <div className="color--darkgrey modal__responsibilities">
                         <ul>
                             <a href={cert.link} target="_blank" rel="noopener noreferrer">VALIDATION NUMBER </a> : {cert.validation} 
                         </ul>
-                    </p>
+                    </div>
                     <p className="modal__description">
                         { cert.title }
                     </p>
