@@ -37,6 +37,10 @@
     width: 66%;
     text-align: center;
   }
+
+  .modal__bullets {
+    margin-bottom: 2.5rem;
+  }
   
   .modal__responsibilities {
     background-color: white;

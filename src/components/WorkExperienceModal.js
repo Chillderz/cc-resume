@@ -43,7 +43,7 @@ class WorkExperienceModal extends React.Component {
                         <ul>
                             { job.title.keyResponsibilities.map( ( responsibility, idx ) => {
                                 return (
-                                    <li key={idx}>{responsibility}</li>
+                                    <li className="modal__bullets" key={idx}>{responsibility}</li>
                                 )
                             })}
                         </ul>
