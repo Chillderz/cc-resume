@@ -31,7 +31,7 @@ class WorkExperience extends React.Component {
 
     render() {
         return(
-            <span>
+            <span id="workExp">
                 <section className="background--skyBlue section">
                     <h2 className="color--cloud margin--none section__text--centered">
                         Work Experience

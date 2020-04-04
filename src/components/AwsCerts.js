@@ -31,7 +31,7 @@ class AwsCerts extends React.Component {
 
     render() {
         return (
-            <span>
+            <span id="awsCerts">
                 <section className="background--skyBlue section">
                     <h2 className="color--cloud margin--none section__text--centered">
                         AWS Certifications

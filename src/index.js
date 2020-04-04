@@ -4,6 +4,7 @@ import * as serviceWorker from './serviceWorker';
 import './index.css';
 
 import Header from './components/Header';
+import Navigation from './components/Navigation';
 import AwsCerts from './components/AwsCerts';
 import AWS_CERTIFICATIONS from './data/awsCerts';
 import WorkExperience from './components/WorkExperience';
@@ -13,6 +14,7 @@ import WORK_EXPERIENCE from './data/workExperience';
 ReactDOM.render(
   <React.StrictMode>
     <Header />
+    <Navigation />
     <WorkExperience jobs={WORK_EXPERIENCE}/>
     <AwsCerts certs={AWS_CERTIFICATIONS}/>
   </React.StrictMode>,
